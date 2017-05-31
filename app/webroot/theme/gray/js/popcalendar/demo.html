@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Popcalendar Demopage</title>
+<script type="text/javascript" src="popcalendar.js"></script>
+<style type="text/css">
+<!--
+body{
+background:#fafafa;
+color:#000000;
+font:78% Verdana,Geneva,Arial,Helvetica,sans-serif
+}
+fieldset{
+background:#ffffff;
+border:1px solid #cccccc;
+color:#267ddc;
+margin-bottom:6px;
+margin-right:6px;
+-moz-border-radius:4px;
+padding:1em;
+width:40em
+}
+legend{color:#3366ff;font-size:110%;font-weight:bold}
+legend img{padding-right:4px}
+.indent{margin:1em 0 0 2em}
+a {text-decoration: none; font-weight: bold; color: #666}
+a:hover {text-decoration: underline}
+a img { border :none }
+-->
+</style>
+</head>
+<body>
+<h1>PopCalendar Demo Page</h1>
+<form method="post" action="#">
+
+
+	<fieldset><legend><img src="default/right1.gif" alt="" />Standard Look</legend>
+
+		This demonstration shows the date value in a text box.
+    The trigger is an image, and the data container is the text box referenced by ID "myDate1".
+		<div class="indent">
+			<input type="text" name="myDate1" id="myDate1" size="10" maxlength="10" value="12/10/2009" />
+			<img src="default/btncalendar.png" class="pcBtn " onclick="popCalendar.show(this, 'myDate1')" alt="" />
+		</div>
+    
+    <br />
+    Only a button:
+    <div class="indent">
+      <input type="button" value="12/24/2009" onclick="popCalendar.show(this)" />
+    </div>
+
+	</fieldset>
+
+
+	<fieldset><legend><img src="default/right1.gif" alt="" />Demonstration 1</legend>
+
+		The following demonstration uses a button as both a trigger and data container.
+    Selected language is german. The datetime format used for this creates a couple of additional textboxes to easily enter a time.
+		<div class="indent">
+			<input type="button" value="27.06.2010 23:04:36" onclick="popCalendar.show(this, this, 'dd.mm.yyyy hh:ii:ss','de',1)" />
+		</div>
+
+	</fieldset>
+
+
+	<fieldset><legend><img src="default/right1.gif" alt="" />Demonstration 2</legend>
+
+		This demonstration shows the date value in a text box.
+    The trigger is a button, and the data container is the text box referenced by ID "myDate2".<br />
+		The Calendar is <strong>positioned absolute</strong> (x=350px, y=350px) and dates in the past are not allowed.
+		<div class="indent">
+			<input type="text" name="myDate2" id="myDate2" size="10" maxlength="10" value="21/12/2009" />
+			<input type="button" onclick="popCalendar.show(this, 'myDate2', 'dd/mm/yyyy', 'en', false, 350, 350)" value="select" />
+		</div>
+	</fieldset>
+
+
+	<fieldset>
+		<legend><img src="default/right1.gif" alt="" />Info</legend>
+		<p>You can find more Infos at 
+			<a href="http://alquanto.net/software/popcalendar">alquanto.net/software/popcalendar</a></p>
+		<p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88" /></a></p>
+	</fieldset>
+
+
+</form>
+</body>
+</html>

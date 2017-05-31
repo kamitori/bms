@@ -1,0 +1,202 @@
+#chat-window .k-window-content{
+	padding: 0.58em 0 !important;
+}
+#chat-window .mCSB_inside>.mCSB_container {
+	margin-right: 0px !important;
+}
+#chatters .mCSB_container > li{
+	line-height: 20px;
+	list-style: none;
+	cursor: pointer;
+	padding: 5px 1em;
+	background: -moz-linear-gradient(left center , #FFFFFF 98%, #D7D7D7 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(left , #FFFFFF 98%, #D7D7D7 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -ms-linear-gradient(left center , #FFFFFF 98%, #D7D7D7 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(left center , #FFFFFF 98%, #D7D7D7 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(left center , #FFFFFF 98%, #D7D7D7 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin: 5px 10px 5px 0px;
+	border-bottom: 1px solid #EDEDED;
+}
+#chatters .mCSB_container > li:hover{
+	background-color: #E0E4EE;
+	font-weight: bold;
+	background: -moz-linear-gradient(left center , #FFFFFF 98%, #2E2E2E 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(left , #FFFFFF 98%, #2E2E2E 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -ms-linear-gradient(left center , #FFFFFF 98%, #2E2E2E 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(left center , #FFFFFF 98%, #2E2E2E 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(left center , #FFFFFF 98%, #2E2E2E 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#chatters .mCSB_container > li.online{
+	cursor: pointer;
+	padding: 5px 1em;
+	background: -moz-linear-gradient(left center , #FFFFFF 98%, #325c99 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(left , #FFFFFF 98%, #325c99 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -ms-linear-gradient(left center , #FFFFFF 98%, #325c99 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(left center , #FFFFFF 98%, #325c99 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(left center , #FFFFFF 98%, #325c99 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	color: #325c99;
+	font-weight: bold;
+}
+#chatters .mCSB_container >li > i {
+	float: right;
+	font-size: 10px;
+	color: white;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: orange;
+	border-radius: 100%;
+}
+.k-block, .k-button, .k-textbox, .k-drag-clue, .k-touch-scrollbar, .k-window, .k-window-titleless .k-window-content, .k-window-action, .k-inline-block, .k-grid .k-filter-options, .k-grouping-header .k-group-indicator, .k-autocomplete, .k-multiselect, .k-combobox,  .k-calendar-container, .k-calendar td, .k-calendar .k-link, .k-treeview .k-in, .k-editor-inline, .k-tooltip, .k-tile, .k-slider-track, .k-slider-selection, .k-upload{
+	border-radius: 4px !important;
+}
+div.k-window{
+	position: fixed !important;
+}
+
+.right_2 {
+  	bottom: 36px !important;
+	height: 452px !important;
+}
+
+.popup-box
+{
+	position: fixed;
+	right: 220px;
+	height: 285px;
+	background-color: #ECECEC;
+	width: 260px;
+	border: 1px solid rgba(29, 49, 91, .3);
+	bottom: 29px;
+	z-index: 10;
+}
+
+.popup-box .popup-head
+{
+	background-color: #6d84b4;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+	clear: both;
+}
+
+.popup-box .popup-head .popup-head-left
+{
+	float: left;
+	font-weight: 900;
+}
+
+.popup-box .popup-head .popup-head-right
+{
+	float: right;
+	opacity: 0.5;
+}
+
+.popup-box .popup-head .popup-head-right a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.popup-box .popup-messages
+{
+	height: 231px;
+}
+
+.popup-box .popup-editor {
+	border-top: 1px solid rgba(29, 49, 91, .3);
+}
+.popup-box .popup-editor textarea {
+	width: 99%;
+	height: 25px;
+	border: none !important;
+	padding: 3px 0px 0px 3px;
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+
+.popup-box .message-box {
+	padding: 5px 0;
+	line-height: 15px;
+	white-space: pre-wrap;
+  	word-wrap: break-word;
+	clear: both;
+}
+.popup-box .message-box i:before {
+	width: 5px;
+	height: 5px;
+	content: "•";
+	font-size: 18px;
+	vertical-align: top;
+	margin-left: 3px;
+	color: orange;
+}
+
+.popup-box .message-box .chatter-name {
+	float: left;
+	display: block;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	margin: 0 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: white;
+	cursor: default;
+}
+
+.popup-box .message-box:last-child .message {
+	margin-bottom: 10px;
+}
+
+.popup-box .message {
+	font-weight: normal !important;
+	font-size: 12px;
+	color: #373e4d;
+	background: #fff;
+	display: inline-block;
+	padding: 7px;
+	max-width: 197px;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	position: relative;
+}
+
+.popup-box .message:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 0;
+	border-right: 6px solid #fff;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	top: 10px;
+	margin-left: -6px;
+}
+
+.popup-box .message-box.right .chatter-name {
+	float: right;
+	padding: 0;
+	margin-right: 5px;
+	/*padding-left: 10px;*/
+}
+
+
+.popup-box .message-box.right .message {
+	float: right;
+}
+
+.popup-box .message-box.right .message:before {
+	left: 100%;
+	margin-right: 6px;
+	margin-left: 0;
+	border-right: 6px solid transparent;
+	border-left: 6px solid #fff;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+}

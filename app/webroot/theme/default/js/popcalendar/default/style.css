@@ -1,0 +1,180 @@
+/* all styles are prefixed with "pc" */
+#pcIDcalendar {
+	padding: 0;
+	border: 1px solid #A0A0A0;
+	background-color: white;
+	z-index: +999;
+	position: absolute;
+	visibility: hidden;
+	width: auto;
+  box-shadow:2px 2px 10px #666;
+  -webkit-box-shadow:2px 2px 10px #666;
+  -moz-box-shadow:2px 2px 10px #666;
+}
+
+#pcIDselectMonth, #pcIDselectYear {z-index:+999;position:absolute;visibility:hidden;}
+
+#pcIDcaption {
+	padding: 2px 3px 4px 2px;
+	background: url(bgcaption.png) repeat-x;
+	color: white;
+	font: bold 11px Arial, Helvetica, sans-serif;
+  -moz-user-select: none;
+}
+
+#pcIDcaption div {clear :none;}
+
+#pcIDcontent table {
+	border: 0;
+  margin: 1px 0 0 0;
+	white-space: nowrap;
+	color: Black;
+	font: 10px Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+  width: 100%;
+  -moz-user-select: none;
+}
+
+/* IE6-hack */
+* + html #pcIDcontent table {width: auto;}
+/* IE7-hack */
+* + html #pcIDcontent table {width: auto;}
+
+
+#pcIDcontent table tr:hover {background: #fafafa;}
+
+#pcIDcontent th {
+	padding-right: 3px;
+	border-bottom: 1px solid #ACA899;
+	font-weight: normal;
+	text-align: right;
+  background-color: #ebebeb;
+  border-right: 1px solid #d9d9d9;
+}
+
+#pcIDcontent td{
+	text-align: right;
+	cursor: default;
+  padding: 0;
+  border: 0;
+}
+
+#pcIDcalendar input {
+  font-size: small;
+  -moz-user-select: text !important;
+}
+
+#pcIDcalendar td a, #pcIDcalendar td a:visited {
+  border: 1px solid transparent;
+	color: black;
+  display:block;
+  padding:3px;
+	font-weight: normal;
+	text-decoration: none
+}
+
+#pcIDcalendar td a:hover {
+	border: 1px solid transparent;
+  background-color: #FBE694;
+	font-weight: normal;
+	text-decoration: none
+}
+
+#pcIDcalendar td.pcDayPast      a { color: #909090 }
+#pcIDcalendar td.pcToday        a { border: 1px solid #CA1539 }
+#pcIDcalendar td.pcDaySelected  a { background-color: #FFCC33 }
+#pcIDcalendar td.pcDayHoliday   a { background-color: #87CEFA }
+#pcIDcalendar td.pcWeekend a,
+#pcIDcalendar td.pcWeekend a:visited,
+#pcIDcalendar td.pcWeekend a:link { color: #54A6E2 }
+#pcIDcalendar td.pcWeekendPast  a { color: #909090 }
+
+#pcIDcalendar td.pcWeekNumber{
+	border-right: 1px solid #ACA899;
+	padding: 0 1px 0 1px;
+	color: black;
+	background: #D9EAFB;
+	font-size: 8px;
+	text-align: right
+}
+
+#pcIDfooter {
+	padding: 1px 4px 1px 4px;
+	color: black;
+	background: #f9f9f9;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: center;
+}
+
+#pcIDfooter a, #pcIDfooter a:hover { border: none; color: #006; font-weight: normal }
+
+
+#pcIDselectYear, #pcIDselectMonth {
+	border: 1px solid #a0a0a0;
+	padding: 0;
+	width: 4em;
+	background-color: #f0f0f0;
+	text-align: center;
+	-moz-user-select: none;
+  box-shadow:2px 2px 10px #666;
+  -webkit-box-shadow:2px 2px 10px #666;
+  -moz-box-shadow:2px 2px 10px #666;
+}
+#pcIDselectMonth {width:7em; text-align:left}
+
+#pcIDselectYear ul, #pcIDselectMonth ul {margin:0;padding:0;border:none;}
+#pcIDselectYear li, #pcIDselectMonth li {list-style:none;margin:0;padding:0;}
+#pcIDselectYear li a, #pcIDselectMonth li a {
+	display: block;
+	color: Black;
+	padding: 2px 4px 2px 4px;
+	text-decoration: none;
+	width: 100%;
+	cursor:pointer;
+	border: none;
+	list-style-image: none;
+	list-style-type: none;
+	font: normal 11px Arial, Helvetica, sans-serif
+}
+#pcIDselectYear li a:hover, #pcIDselectMonth li a:hover {background-color: #909090;}
+
+html>body #pcIDselectYear li a, html>body #pcIDselectMonth li a {width: auto;}
+
+#pcIDcaption div {
+	cursor:pointer;
+	float: left;
+	color: white;
+	margin-right: 3px;
+	width: 2em;
+	-moz-user-select: none;
+	font: bold 11px Arial, Helvetica, sans-serif
+}
+
+#pcIDleft, #pcIDright {width: 2em !important;}
+
+#pcIDcaption div a {
+	border:1px solid #36f;
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	color: white;
+	font: bold 11px Arial, Helvetica, sans-serif
+}
+
+#pcIDcaption div a:hover {
+	border:1px solid #8af;
+	display: block;
+	text-decoration: none;
+}
+
+#pcIDleft a {background: url(left1.gif) no-repeat center;}
+#pcIDright a {background: url(right1.gif) no-repeat center;}
+#pcIDleft a:hover  {background: url(left2.gif) no-repeat center;}
+#pcIDright a:hover {background: url(right2.gif) no-repeat center;}
+#pcIDMonth a, #pcIDYear a {background: url(drop1.gif) no-repeat right;padding: 0 14px 0 2px;}
+#pcIDMonth a:hover, #pcIDYear a:hover {background: url(drop2.gif) no-repeat right;padding: 0 14px 0 2px;}
+
+.pcBtn {cursor:pointer;}
+
+html>body #pcIDcaption div, html>body #pcIDcaption a {width: auto;}

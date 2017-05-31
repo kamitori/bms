@@ -1,0 +1,311 @@
+/*.combobox_button{
+    right: -21px !important;
+}*/
+.jt_sub_content .input_selec:not(.hasBoder){
+	border-bottom:none; margin-top:-3px !important;
+}
+.error_color{
+	color:red;
+}
+span.Late{
+	color: rgb(255, 0, 0);
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+}
+.alert-message {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	margin: 10px 0;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+	clear: both;
+	text-align: center;
+}
+table.Data td.bg2 {
+	background: #F1F1F1;
+	font-weight: normal;
+}
+table.Data td{
+	border: 1px solid #D0D7E5;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	background-color: #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+table.Data{
+	width: 100%;
+}
+table.Input td{
+	padding: 0 4px;
+}
+
+#div_content a{
+	color: blue;
+}
+#footer{
+	height: auto;
+}
+#content{
+	color: #000;
+}
+
+/*#content a{
+	color: #3b5998;
+	outline-style: none;
+	text-decoration: none;
+}*/
+
+/*#content a:hover{
+	color: red;
+}
+*/
+.Button {
+	background-color: #3B5998;
+	border-color: #D9DFEA #0E1F5B #0E1F5B #D9DFEA;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
+	padding: 2px 15px 3px;
+	text-align: center;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	width: auto;
+}
+
+.Button:hover {
+	background-color: #4674D6;
+}
+
+input[type=submit]{
+	cursor: pointer;
+}
+
+div.message{
+	color:#C73E14;
+	background-color:#E6EFC2;
+	border-color:#C6D880;
+
+}
+
+.message-success{background-color:#E6EFC2;border-color:#C6D880;color:#529214;margin-bottom: 3px;}
+.message-error,#authMessage{background-color:#FBE3E4;color:#D12F19;font-weight:700;margin-bottom: 3px;}
+
+.message-notice {
+	background-color: #F2FBE3;
+	color: #D2871A;
+}
+.message,.message-error,.message-notice,.message-success,.message-suggest{
+	font-weight:bold;
+	padding:5px;
+	text-align:left;
+	font-size: 12px;
+}
+
+#function_in_progress_develop, #loading{background-color:#FFFFCC;border:thin solid #F63;color:#C60;cursor:wait;display:inline;font-size:small;font-weight:700;height:100px;left:40%;opacity:0.8;position:fixed;text-align:center;top:50%;vertical-align:middle;width:200px;z-index:9999}
+#function_in_progress_develop{
+	top: 90%;
+	height: 47px;
+	width: 300px;
+	border-radius: 6px;
+}
+/*table.Data input:focus, table.Data textarea:focus, table.Data select:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	outline: 0;
+	outline: thin dotted 9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+}*/
+input.Long,input.Short,input.Date{
+	width: 270px;
+	border: 1px solid #BDC7D8;
+	margin: 0;
+	padding: 3px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	-moz-box-sizing: border-box;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	border-color: #FFF;
+}
+input.Long{
+	width: 300px;
+}
+input.Short{
+	width: 120px;
+}
+input.Date{
+	width: 78px;
+}
+select.Long,select.Short,select.Hour{
+	width: 284px;
+	padding: 3px 5px;
+	border: 1px solid #BDC7D8;
+	border-color: #FFF;
+}
+select.Long{
+	width: 307px;
+}
+select.Short{
+	width: 127px;
+}
+select.Hour{
+	width: 77px;
+}
+ul.list_day_rs2 li.BgWhite{
+	background-color: #FFF;
+}
+.box_1 p, .box_2 p, .box_3 p{
+	height: 12px;
+}
+table.Data td.BgTdColor{
+	background-color: #FFF7F7;
+}
+
+/*BaoNam*/
+ul.list_day_ct li.active,ul.list_day_rs2 li.active,ul.list_day_rs2_fix li.active {
+    border-left: 1px solid blue;
+    border-right-color: blue;
+}
+.BgOptionHour{
+	background-color: #DAFFDA;
+}
+
+ul.list_day_rs2 li {
+	background: none repeat scroll 0 0 #EEE;
+}
+
+.denttf {
+	margin-top: 168px !important;
+}
+
+ul.top_control li a:hover{
+	background-color: #000;
+}
+
+#wrapper{
+	width: auto;
+}
+
+ul.nav_header li a.active {
+	background: #B22626 url("/theme/default/images/icon.png") no-repeat -246px -134px;
+	color: #FFF;
+}
+.JtHeaderTable{
+	font-weight: bold;
+	color: #6a1515;
+	text-align: center;
+}
+*{
+	font-size: 12px;
+}
+
+/*SUA CSS CUA MINH*/
+.fx_res_uli{
+	width: 95.8% !important;
+	position: fixed;
+}
+ul.list_day22 li{
+	width:14.1% !important;
+}
+ul.list_rs li, ul.list_day_rs2_fix li{
+	background-color: #FFF;
+}
+ul.list_rs li.BgWhite, ul.list_day_rs2_fix li.BgWhite{
+	background-color: #FFF;
+}
+ul.list_rs li.active{
+	background-color: #FCF3A1 !important;
+}
+.clear_tophead2d_res{
+	width: 96.6% !important;
+}
+ul.list_rs, ul.list_day_rs2_fix{
+	clear: both;
+}
+div.draggable{
+	cursor: move;
+}
+.left_resource{
+	position: fixed;
+	margin-top: -137px;
+}
+.JtResourcesLiHasUser{
+	cursor: pointer;
+}
+
+.styled_select select{
+	padding-left: 1px;
+}
+
+.myscheduler div.dhx_scale_bar {
+	background: none repeat scroll 0 0 #6A1515;
+	border-bottom: 1px solid #6A1515;
+	color: #FFFFFF;
+	display: block;
+	font: bold 11px arial,verdana,sans-serif;
+	padding: 3px 0;
+	text-align: center;
+	width: 13.1%;
+}
+
+.myscheduler div.dhx_scale_bar a{
+	color: #FFFFFF !important;
+}
+
+.myscheduler div.dhx_scale_bar a:hover{
+	text-decoration: none;
+}
+.error_input{
+	border: 1px solid red !important;
+}
+
+.fix_bottom_address{
+	height: 27px;
+}
+
+.fix_bottom_address_28{
+	height: 28px;
+}
+
+
+.fix_bot_bor{
+	border-bottom-left-radius: 8px;
+}
+
+/*Dung cho jobs / entry - general - manager*/
+ul.ul_mag li {
+	border-right: 1px solid #FFF;
+	float: left;
+	font-family: arial,sans-serif,verdana;
+	font-size: 11px;
+	overflow: hidden;
+	padding: 4px 0px 4px 5px;
+	width: 93%;
+}
+
+.dhtmlXTooltip.tooltip {
+    border-left: 1px solid #CECECE;
+    border-top: 1px solid #CECECE;
+    color: #747473;
+    font-size: 11px;
+    line-height: 23px;
+    border-radius: 8px;
+    font-weight: normal;
+    margin-left: -1%;
+    padding: 8px 16px;
+    /*-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s ;
+	-o-transition: all 0.6s ;*/
+}
+.dhx_header, .dhx_title, .dhx_body, .dhx_footer{
+    opacity: 0.8;
+}
+
+.dhtmlXTooltip.tooltip b{
+     color: rgba(0, 0, 0, 0.71);
+    font-weight:bold;
+}

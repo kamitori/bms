@@ -1,0 +1,1 @@
+C:\xampp\php\php.exe C:\xampp\htdocs\jobtraq\lib\Cake\Console\cake.php -app C:\xampp\htdocs\jobtraq\app updatecostings

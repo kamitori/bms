@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sales_order_List</title>
+	<link href="../../../css/reset.css" rel="stylesheet" type="text/css">
+	<link href="../../../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="wrapper">
+    	<div id="header">
+            <div class="logo float_left">
+                <div class="company_title float_left">
+                    <div class="clear dent_x">
+                        <ul class="control_topleft float_left">
+                            <li><a href="#" class="prev"></a></li>
+                            <li><a href="#" class="active">Day</a></li>
+                            <li><a href="#">Week</a></li>
+                            <li><a href="#">Month</a></li>
+                            <li><a href="#" class="next"></a></li>
+                        </ul>
+                        <ul class="control_topleft2 float_left">
+                            <li><a href="#" class="active">Today</a></li>
+                            <li><a href="#" class="bor">View date</a></li>
+                        </ul>
+                    </div>
+                    <h2>Comms: Thu, Jun 13, 2013</h2>
+                </div>
+            </div>
+            <ul class="nav_header float_right">
+                <li class="active"><a href="#" class="next">CMR/Work</a></li>
+                <li><a href="#" class="company">Company</a></li>
+                <li><a href="#" class="contacts">Contacts</a></li>
+                <li><a href="#" class="comms">Comms</a></li>
+                <!--
+                <li><a href="#" class="docs">Docs</a></li>
+                <li class="active"><a href="#" class="jobs">Jobs</a></li>
+                <li><a href="#" class="stages">Stages</a></li>
+                <li><a href="#" class="tasks">Tasks</a></li>
+                <li><a href="#" class="timelog">TimeLog</a></li>
+            -->
+                <li class="active"><a href="#" class="next">Sales</a></li>
+                <li><a href="#" class="enquiries">Enquiries</a></li>
+                <li><a href="#" class="quotes">Quotes</a></li>
+                <li class="active"><a href="#" class="sales_ord">Sales Ord</a></li>
+                <!--
+                <li><a href="#" class="sales_acc">Sales Acc</a></li>
+                <li><a href="#" class="sales_inv">Sales Inv</a></li>
+                <li><a href="#" class="receipts">Receipts</a></li>
+                 -->
+                <li><a href="#" class="next">Inventory</a></li>
+                <li><a href="#" class="products">Products</a></li>
+                <li><a href="#" class="locations">Locations</a></li>
+                <li><a href="#" class="units">Units</a></li>
+                <li><a href="#" class="batches">Batches</a></li>
+                <li><a href="#" class="purch_ord">Purch Ord</a></li>
+                <li><a href="#" class="shipping">Shipping</a></li>
+            </ul>
+    	</div>
+        <p class="clear_fix">clearfix</p>
+        <div class="menu">
+            <div class="bg_menu bg_menu_res">
+                <ul class="menu_control float_left">
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Delete</a></li>
+                    <li><a href="#">Find</a></li>
+                    <li><a href="#">Find all</a></li>
+                    <li><a href="#">Omit</a></li>
+                    <li><a href="#">Sort</a></li>
+                    <li><a href="#">Print</a></li>
+                </ul>
+                <ul class="menu_control2 float_right">
+                    <li><a href="calendar-resource.html">Entry</a></li>
+                    <li><a href="calendar-job.html" class="active">List</a></li>
+                    <li><a href="calendar-stages.html">Options</a></li>
+                </ul>
+            </div>
+        </div><!--END Menu -->
+        <div id="content">
+            <div class="w_ul2 ul_res2">
+                <ul class="ul_mag clear bg top_header_inner2 ul_res2">
+                    <li class="hg_padd" style="width:.5%"></li>
+                    <li class="hg_padd">Ref no</li>
+                    <li class="hg_padd" style="width:15%">Company</li>
+                    <li class="hg_padd" style="width:11%">Contact</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total ex.Tax</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total Tax</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total inc. Tax</li>
+                    <li class="hg_padd" style="width:10%">Phone</li>
+                    <li class="hg_padd center_txt" style="width:5%">Date</li>
+                    <li class="hg_padd" style="width:10%">Our rep</li>
+                    <li class="hg_padd" style="width:9%">Status</li>
+                    <li class="hg_padd bor_mt" style="width:.5%"></li>
+                </ul>
+                <ul class="ul_mag clear indent_ul_top bg1">
+                    <li class="hg_padd" style="width:.5%"><span class="icon_emp"></span></li>
+                    <li class="hg_padd">Ref no</li>
+                    <li class="hg_padd" style="width:15%">Company</li>
+                    <li class="hg_padd" style="width:11%">Contact</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total ex.Tax</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total Tax</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total inc. Tax</li>
+                    <li class="hg_padd" style="width:10%">Phone</li>
+                    <li class="hg_padd center_txt" style="width:5%">Date</li>
+                    <li class="hg_padd" style="width:10%">Our rep</li>
+                    <li class="hg_padd" style="width:9%">Status</li>
+                    <li class="hg_padd bor_mt" style="width:.5%">
+                        <div class="middle_check">
+                            <a href="" title="Delete link">
+                                <span class="icon_remove2"></span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="ul_mag clear bg2">
+                    <li class="hg_padd" style="width:.5%"><span class="icon_emp"></span></li>
+                    <li class="hg_padd">Ref no</li>
+                    <li class="hg_padd" style="width:15%">Company</li>
+                    <li class="hg_padd" style="width:11%">Contact</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total ex.Tax</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total Tax</li>
+                    <li class="hg_padd right_txt" style="width:7%">Total inc. Tax</li>
+                    <li class="hg_padd" style="width:10%">Phone</li>
+                    <li class="hg_padd center_txt" style="width:5%">Date</li>
+                    <li class="hg_padd" style="width:10%">Our rep</li>
+                    <li class="hg_padd" style="width:9%">Status</li>
+                    <li class="hg_padd bor_mt" style="width:.5%">
+                        <div class="middle_check">
+                            <a href="" title="Delete link">
+                                <span class="icon_remove2"></span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div><!--END Content -->
+        <div id="footer">
+            <div class="bg_footer footer_res">
+                <span class="icon_vwie dt_ft"><a href="">Click arrow to view details</a></span>
+                <ul class="navleft_footer float_right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="calendar-job.html" class="active">Calendar</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#"><span class="color_ac">Alerts : 1</span></a></li>
+                </ul>
+                <form class="float_right">
+                    <div class="blocklist">
+                        <span class="bt_block float_left no_bg">
+                            Total
+                            <input class="input_w2" type="text">
+                            <input class="input_w2" type="text">
+                            <input class="input_w2" type="text">
+                        </span>
+                    </div>
+                </form>
+
+            </div>
+        </div><!--END Footer -->
+    </div>
+</body>
+</html>

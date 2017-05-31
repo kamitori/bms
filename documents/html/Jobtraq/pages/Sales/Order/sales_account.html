@@ -1,0 +1,1139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sales_Order</title>
+	<link href="../../../css/reset.css" rel="stylesheet" type="text/css">
+	<link href="../../../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="wrapper">
+    	<div id="header">
+            <div class="logo float_left">
+                <ul class="top_control float_left">
+                    <li><a href="#" class="prev_1"></a></li>
+                    <li><a href="#" class="prev"></a></li>
+                    <li><a href="#" class="next"></a></li>
+                    <li><a href="#" class="next_1"></a></li>
+                    <li><a href="#" class="play"></a></li>
+                </ul>
+                <div class="title_top_ctrl float_left">
+                    <h2>Sales Orders</h2>
+                    <span>Record 1 of 1. Total 5</span>
+                </div>
+            </div>
+            <ul class="nav_header float_right">
+                <li class="active"><a href="#" class="next">CMR/Work</a></li>
+                <li><a href="#" class="company">Company</a></li>
+                <li><a href="#" class="contacts">Contacts</a></li>
+                <li><a href="#" class="comms">Comms</a></li>
+                <li><a href="#" class="docs">Docs</a></li>
+                <li><a href="#" class="jobs">Jobs</a></li>
+                <!-- <li><a href="#" class="stages">Stages</a></li>
+                <li><a href="#" class="tasks">Tasks</a></li>
+                <li><a href="#" class="timelog">TimeLog</a></li> -->
+                <!-- <li class="active"><a href="#" class="next">Sales</a></li>
+                <li><a href="#" class="enquiries">Enquiries</a></li>
+                <li><a href="#" class="quotes">Quotes</a></li> -->
+                <li><a href="#" class="sales_ord">Sales Ord</a></li>
+                <li class="active"><a href="#" class="sales_acc">Sales Acc</a></li>
+                <li><a href="#" class="sales_inv">Sales Inv</a></li>
+                <li><a href="#" class="receipts">Receipts</a></li>
+                <li><a href="#" class="next">Inventory</a></li>
+                <li><a href="#" class="products">Products</a></li>
+                <li><a href="#" class="locations">Locations</a></li>
+                <!-- <li><a href="#" class="units">Units</a></li>
+                <li><a href="#" class="batches">Batches</a></li>
+                <li><a href="#" class="purch_ord">Purch Ord</a></li> -->
+                <li><a href="#" class="shipping">Shipping</a></li>
+            </ul>
+    	</div><!-- End Header -->
+        <p class="clear_fix">clearfix</p>
+        <div class="menu">
+            <div class="bg_menu bg_menu_res">
+                <ul class="menu_control float_left">
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Delete</a></li>
+                    <li><a href="#">Find</a></li>
+                    <li><a href="#">Find all</a></li>
+                    <li><a href="#">Omit</a></li>
+                    <li><a href="#">Sort</a></li>
+                    <li><a href="#">Print</a></li>
+                </ul>
+                <ul class="menu_control2 float_right">
+                    <li><a href="../../jobs/calendar-tasks.html" class="active">Entry</a></li>
+                    <li><a href="../../jobs/calendar-timelog.html">List</a></li>
+                    <li class="com_den"><a href="../../jobs/calendar-comms.html">Options</a></li>
+                </ul>
+            </div>
+        </div><!--END Menu -->
+        <div id="content">
+            <div class="clear_percent">
+            	<div class="block_dent_a">
+                	<div class="title_1 float_left">
+                        <h1>Account:</h1>
+                    </div>
+	                <div class="title_1 right_txt float_right">
+                        <h1>Status:</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="clear_percent">
+                <div class="clear_percent_1 float_left">
+                    <div class="tab_1 block_dent_a table_1">
+                        <p class="clear">
+                            <span class="label_1 float_left fixbor">Account no</span>
+                            <div class="width_in float_left indent_input_tp">
+                                <input class="input_1 float_left ip" type="text" value="">
+                                <p class="float_left p_type">Type</p>
+                                <input class="input_1 float_left ip2" type="text" value="">
+                            </div>
+                        </p>
+                        <p class="clear">
+                            <span class="label_1 float_left"><a href="#">Account name</a></span>
+                            <div class="width_in float_left indent_input_tp">
+                                <input class="input_1 float_left" type="text" value="">
+                            </div>
+                        </p>
+                        <p class="clear">
+                            <span class="label_1 float_left">Account status</span>
+                            <div class="width_in float_left indent_input_tp">
+                                <div class="styled_select">
+                                    <select>
+                                        <option select="selected"</option>
+                                        <option></option>
+                                        <option></option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <p class="clear"></p>
+                        </p>
+
+                        <p class="clear">
+                            <span class="label_1 float_left">Phone</span>
+                            <div class="indent_new width_in float_left">
+                                <input class="input_1 float_left" type="text" value="">
+                                <a title="Dial phone" href="">
+                                    <span class="icon_phonec"></span>
+                                </a>
+                            </div>
+                        </p>
+                        <p class="clear">
+                            <span class="label_1 float_left">Fax</span>
+                            <div class="indent_new width_in float_left">
+                                <input class="input_1 float_left" type="text" value="">
+                                <a title="Dial phone" href="">
+                                    <span class="icon_fax"></span>
+                                </a>
+                            </div>
+                        </p>
+                        <p class="clear">
+                            <span class="label_1 float_left acc_email bor_ra">Email</span>
+                            <div class="indent_new width_in float_left">
+                                <input class="input_1 float_left" type="text" value="">
+                                <a title="Create email" href="">
+                                    <span class="icon_emaili"></span>
+                                </a>
+                            </div>
+                        </p>
+                       
+                        
+                        <p class="clear"></p>
+                    </div><!--END Tab1 -->
+                </div>
+                <div class="clear_percent_2 float_right">
+                    <div class="tab_1 float_left block_dent8">
+                        <div class="tab_1_inner float_left">
+                            <p class="clear">
+                                <span class="label_1 float_left hgt minw_lab fixbor">
+                                    Default address
+                                </span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                    <a title="View map" href="">
+                                        <span class="iconw_m indent_dw_m"></span>
+                                    </a>
+                                    <a title="Specify address" href="">
+                                        <span class="icosp_addr indent_sp_add"></span>
+                                    </a>
+                                </div>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Town / City</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Country / State</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Zip / Post code</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Country</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Our rep</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab span1 bor_ra">Identity</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left  last_input" type="text" value="">
+                                </div>
+                            </p>
+                            
+                        </div>
+                        <div class="tab_1_inner float_left">
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Invoice / credtis</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Recipe</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Account balance</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Credit limit</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Difference</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                    <span class="icon_search_ip float_right"></span>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Payment terms</span>
+                                <div class="margin_left float_left indent_input_tp payment">
+                                    <div class="styled_select_2 float_left">
+                                        <select>
+                                            <option select="selected"></option>
+                                            <option>Developper</option>
+                                            <option>Production</option>
+                                            <option>Manuafacture</option>
+                                        </select>
+                                    </div>
+                                    <p class="p_type">days</p> 
+                                    <span class="icon_search_ip float_right"></span>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Tax code</span>
+                                <div class="margin_left float_left indent_input_tp payment">
+                                    <div class="styled_select_2 float_left">
+                                        <select>
+                                            <option select="selected"></option>
+                                            <option>Developper</option>
+                                            <option>Production</option>
+                                            <option>Manuafacture</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Nominal code</span>
+                                <div class="margin_left float_left indent_input_tp payment">
+                                    <div class="styled_select_2 float_left">
+                                        <select>
+                                            <option select="selected"></option>
+                                            <option>Developper</option>
+                                            <option>Production</option>
+                                            <option>Manuafacture</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Ext Accound ID</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left last_input" type="text" value="">
+                                </div>
+                            </p>
+                       </div>
+                        <div class="tab_1_inner float_left">
+                             <p class="clear">
+                                <span class="label_1 float_left minw_lab">Usually pay by</span>
+                                <div class="margin_left float_left indent_input_tp">
+                                    <div class="styled_select float_left">
+                                        <select>
+                                            <option select="selected"></option>
+                                            <option>Developper</option>
+                                            <option>Production</option>
+                                            <option>Manuafacture</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Card type</span>
+                                <div class="margin_left float_left indent_input_tp">
+                                    <div class="styled_select float_left">
+                                        <select>
+                                            <option select="selected"></option>
+                                            <option>Developper</option>
+                                            <option>Production</option>
+                                            <option>Manuafacture</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Card number</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left right_txt" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Payment terms</span>
+                                <div class="margin_left float_left indent_input_tp payment">
+                                    <div class="styled_select_2 float_left">
+                                        <select>
+                                            <option select="selected"></option>
+                                            <option>Developper</option>
+                                            <option>Production</option>
+                                            <option>Manuafacture</option>
+                                        </select>
+                                    </div>
+                                    <p class="p_type fl_right">Year</p> 
+                                    
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab">Security ID</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <input class="input_1 float_left right_txt" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left fixbor3 minw_lab ">Card holder</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                    <div class="styled_select">
+                                        <select>
+                                            <option select="selected">Yuor company here</option>
+                                            <option>Developper</option>
+                                            <option>Production</option>
+                                            <option>Manuafacture</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab last_secu">Address</span>
+                                <div class="width_in3 float_left indent_input_tp">
+                                <textarea class="input_1 float_left  last_input2 text_area" type="text" value=""></textarea> 
+                                </div>
+                            </p>
+                        </div>
+                    </div><!--END Tab1 -->
+                </div>
+            </div>
+            <div class="clear"></div>         
+            <div class="clear block_dent3">
+                <div class="box_inner">
+                	<ul class="ul_tab">
+                        <li class="active"><a href="#">Invoice</a></li>
+                        <li><a href="#">Receipts</a></li>
+                        <li><a href="#">Comms</a></li>
+                        <li><a href="#">Tasks</a></li>
+                        <li><a href="#">Other</a></li>
+                        <p class="clear"></p>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear_percent">
+                <div class="tab_1 tab_bor full_width">
+                    <span class="title_block bo_ra1">
+                        <span class="fl_sale"><h4>Sales invoices for this account</h4></span>
+                        <a href="" title="Link a contact"><span class="icon_down_tl top_f"></span></a>
+                        <span class=" float_right po_print"><h4>PO number required to print /email invoices</h4></span>
+                        <a href="" title="Link a contact"><span class="float_right"></span></a>
+                    </span>
+                    <p class="clear"></p>
+                    <ul class="ul_mag clear bg3">
+                        <li class="hg_padd" style="width:0.1%"></li>
+                        <li class="hg_padd" style="width:3%">Ref no</li>
+                        <li class="hg_padd" style="width:5%">Type</li>
+                        <li class="hg_padd center_txt" style="width:2.8%">Date</li>
+                        <li class="hg_padd" style="width:4%">Status</li>
+                        <li class="hg_padd" style="width:2%">Term</li>
+                        <li class="hg_padd center_txt" style="width:3%">Due</li>
+                        <li class="hg_padd center_txt" style="width:4%">Day left</li>
+                        <li class="hg_padd center_txt" style="width:2%">Due</li>
+                        <li class="hg_padd center_txt" style="width:3%">Paid</li>
+                        <li class="hg_padd" style="width:7%">Our rep</li>
+                        <li class="hg_padd" style="width:4%">Job no</li>
+                        <li class="hg_padd" style="width:12%">Job name</li>
+                        <li class="hg_padd right_txt" style="width:5%">Ex. Tax total</li>
+                        <li class="hg_padd right_txt" style="width:6.5%">Tax</li>
+                        <li class="hg_padd center_txt" style="width:6%">Total inc Tax</li>
+                        <li class="hg_padd right_txt" style="width:5%">Receipts</li>
+                        <li class="hg_padd right_txt" style="width:5%">Balance</li>
+                        <li class="hg_padd" style="width:0.1%; border-right: 0px solid #FFFFFF;"></li>
+                    </ul>
+                        
+                    <ul class="ul_mag clear bg1">
+                        <li class="hg_padd" style="width:0.1%"><span class="icon_emp2"></span></li>
+                        <li class="hg_padd" style="width:3%">Ref no</li>
+                        <li class="hg_padd" style="width:5%">Type</li>
+                        <li class="hg_padd center_txt" style="width:2.8%">Date</li>
+                        <li class="hg_padd" style="width:4%">Status</li>
+                        <li class="hg_padd" style="width:2%">Term</li>
+                        <li class="hg_padd center_txt" style="width:3%">Due</li>
+                        <li class="hg_padd center_txt" style="width:4%">Day left</li>
+                        <li class="hg_padd center_txt" style="width:2%">Due</li>
+                        <li class="hg_padd center_txt" style="width:3%">Paid</li>
+                        <li class="hg_padd" style="width:7%">Our rep</li>
+                        <li class="hg_padd" style="width:4%">Job no</li>
+                        <li class="hg_padd" style="width:12%">Job name</li>
+                        <li class="hg_padd right_txt" style="width:5%">Ex. Tax total</li>
+                        <li class="hg_padd right_txt" style="width:6.5%">Tax</li>
+                        <li class="hg_padd center_txt" style="width:6%">Total inc Tax</li>
+                        <li class="hg_padd right_txt" style="width:5%">Receipts</li>
+                        <li class="hg_padd right_txt" style="width:5%">Balance</li>
+                        <li class="hg_padd bor_mt" style="width:0.1%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="ul_mag clear bg2">
+                        <li class="hg_padd" style="width:0.1%"><span class="icon_emp2"></span></li>
+                        <li class="hg_padd" style="width:3%">Ref no</li>
+                        <li class="hg_padd" style="width:5%">Type</li>
+                        <li class="hg_padd center_txt" style="width:2.8%">Date</li>
+                        <li class="hg_padd" style="width:4%">Status</li>
+                        <li class="hg_padd" style="width:2%">Term</li>
+                        <li class="hg_padd center_txt" style="width:3%">Due</li>
+                        <li class="hg_padd center_txt" style="width:4%">Day left</li>
+                        <li class="hg_padd center_txt" style="width:2%">Due</li>
+                        <li class="hg_padd center_txt" style="width:3%">Paid</li>
+                        <li class="hg_padd" style="width:7%">Our rep</li>
+                        <li class="hg_padd" style="width:4%">Job no</li>
+                        <li class="hg_padd" style="width:12%">Job name</li>
+                        <li class="hg_padd right_txt" style="width:5%">Ex. Tax total</li>
+                        <li class="hg_padd right_txt" style="width:6.5%">Tax</li>
+                        <li class="hg_padd center_txt" style="width:6%">Total inc Tax</li>
+                        <li class="hg_padd right_txt" style="width:5%">Receipts</li>
+                        <li class="hg_padd right_txt" style="width:5%">Balance</li>
+                        <li class="hg_padd bor_mt" style="width:0.1%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="title_block bo_ra2">
+                        
+                        <span class="float_left bt_block">View</span>
+                        <span class="span_day float_left ">
+                            <span class="bt_block float_left no_bg">
+                                0-30 days
+                                <input class="input_w2 " type="text">
+                            </span>
+                            <span class="bt_block float_left no_bg">
+                                31-60 days
+                                <input class="input_w2 " type="text">
+                            </span>
+                            <span class="bt_block float_left no_bg">
+                                61-90 days
+                                <input class="input_w2 " type="text">
+                            </span>
+                            <span class="bt_block float_left no_bg">
+                                90+ days
+                                <input class="input_w2 " type="text">
+                            </span>
+                        </span>  
+                        <span class="bt_block float_left no_bg" style="margin-left:8.7%">Totals&nbsp;</span> 
+                        <span class="float_right" style="width:33%">  
+                            <input class=" clear input_w2 right_txt" type="text" style="width: 17%;margin-left:-3%">
+                            <input class=" clear input_w2 right_txt" type="text" style="width: 22%;">
+                            <input class=" clear input_w2 right_txt" type="text" style="width:20.8%">
+                            <input class="clear input_w2 right_txt" type="text" style="width:17%">
+                            <input class="clear input_w2 right_txt" type="text" style="width:17%;">
+                        </span>  
+
+                            
+                    </span>
+                </div><!--END Tab1 -->
+            </div>
+            <br>
+            <div class="clear_percent">
+                <div class="tab_1 tab_bor full_width">
+                    <span class="title_block bo_ra1">
+                        <span class="fl_sale"><h4>Sales invoices for this account</h4></span>
+                        <a href="" title="Link a contact"><span class="icon_down_tl top_f"></span></a>
+                        <span class=" float_right po_print"><h4>PO number required to print /email invoices</h4></span>
+                        <a href="" title="Link a contact"><span class="float_right"></span></a>
+                        <a href="">
+                            <span class=" float_left po_print print_bor"><h6>Print statement</h6></span>
+                            <span class="icon_down_tl top_f icon_print"></span>
+                        </a>
+                        <a href="">
+                            <span class=" float_left po_print print_bor"><h6>Email statement</h6></span>
+                            <span class="icon_down_tl top_f icon_print"></span>
+                        </a>
+                    </span>
+                    <p class="clear"></p>
+                    <ul class="ul_mag clear bg3">
+                        <li class="hg_padd" style="width:0.1%"></li>
+                        <li class="hg_padd" style="width:3%">Ref no</li>
+                        <li class="hg_padd" style="width:5%">Type</li>
+                        <li class="hg_padd center_txt" style="width:2.8%">Date</li>
+                        <li class="hg_padd" style="width:4%">Status</li>
+                        <li class="hg_padd" style="width:2%">Term</li>
+                        <li class="hg_padd center_txt" style="width:3%">Due</li>
+                        <li class="hg_padd center_txt" style="width:4%">Day left</li>
+                        <li class="hg_padd center_txt" style="width:2%">Due</li>
+                        <li class="hg_padd center_txt" style="width:3%">Paid</li>
+                        <li class="hg_padd" style="width:7%">Our rep</li>
+                        <li class="hg_padd" style="width:4%">Job no</li>
+                        <li class="hg_padd" style="width:12%">Job name</li>
+                        <li class="hg_padd right_txt" style="width:5%">Ex. Tax total</li>
+                        <li class="hg_padd right_txt" style="width:6.5%">Tax</li>
+                        <li class="hg_padd center_txt" style="width:6%">Total inc Tax</li>
+                        <li class="hg_padd right_txt" style="width:5%">Receipts</li>
+                        <li class="hg_padd right_txt" style="width:5%">Balance</li>
+                        <li class="hg_padd" style="width:0.1%; border-right: 0px solid #FFFFFF;"></li>
+                    </ul>
+                        
+                    <ul class="ul_mag clear bg1">
+                        <li class="hg_padd" style="width:0.1%"><span class="icon_emp2"></span></li>
+                        <li class="hg_padd" style="width:3%">Ref no</li>
+                        <li class="hg_padd" style="width:5%">Type</li>
+                        <li class="hg_padd center_txt" style="width:2.8%">Date</li>
+                        <li class="hg_padd" style="width:4%">Status</li>
+                        <li class="hg_padd" style="width:2%">Term</li>
+                        <li class="hg_padd center_txt" style="width:3%">Due</li>
+                        <li class="hg_padd center_txt" style="width:4%">Day left</li>
+                        <li class="hg_padd center_txt" style="width:2%">Due</li>
+                        <li class="hg_padd center_txt" style="width:3%">Paid</li>
+                        <li class="hg_padd" style="width:7%">Our rep</li>
+                        <li class="hg_padd" style="width:4%">Job no</li>
+                        <li class="hg_padd" style="width:12%">Job name</li>
+                        <li class="hg_padd right_txt" style="width:5%">Ex. Tax total</li>
+                        <li class="hg_padd right_txt" style="width:6.5%">Tax</li>
+                        <li class="hg_padd center_txt" style="width:6%">Total inc Tax</li>
+                        <li class="hg_padd right_txt" style="width:5%">Receipts</li>
+                        <li class="hg_padd right_txt" style="width:5%">Balance</li>
+                        <li class="hg_padd bor_mt" style="width:0.1%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="ul_mag clear bg2">
+                        <li class="hg_padd" style="width:0.1%"><span class="icon_emp2"></span></li>
+                        <li class="hg_padd" style="width:3%">Ref no</li>
+                        <li class="hg_padd" style="width:5%">Type</li>
+                        <li class="hg_padd center_txt" style="width:2.8%">Date</li>
+                        <li class="hg_padd" style="width:4%">Status</li>
+                        <li class="hg_padd" style="width:2%">Term</li>
+                        <li class="hg_padd center_txt" style="width:3%">Due</li>
+                        <li class="hg_padd center_txt" style="width:4%">Day left</li>
+                        <li class="hg_padd center_txt" style="width:2%">Due</li>
+                        <li class="hg_padd center_txt" style="width:3%">Paid</li>
+                        <li class="hg_padd" style="width:7%">Our rep</li>
+                        <li class="hg_padd" style="width:4%">Job no</li>
+                        <li class="hg_padd" style="width:12%">Job name</li>
+                        <li class="hg_padd right_txt" style="width:5%">Ex. Tax total</li>
+                        <li class="hg_padd right_txt" style="width:6.5%">Tax</li>
+                        <li class="hg_padd center_txt" style="width:6%">Total inc Tax</li>
+                        <li class="hg_padd right_txt" style="width:5%">Receipts</li>
+                        <li class="hg_padd right_txt" style="width:5%">Balance</li>
+                        <li class="hg_padd bor_mt" style="width:0.1%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="title_block bo_ra2">
+                        
+                        <span class="float_left bt_block">View</span>
+                        <span class="span_day float_left ">
+                            <span class="bt_block float_left no_bg">
+                                0-30 days
+                                <input class="input_w2 " type="text">
+                            </span>
+                            <span class="bt_block float_left no_bg">
+                                31-60 days
+                                <input class="input_w2 " type="text">
+                            </span>
+                            <span class="bt_block float_left no_bg">
+                                61-90 days
+                                <input class="input_w2 " type="text">
+                            </span>
+                            <span class="bt_block float_left no_bg">
+                                90+ days
+                                <input class="input_w2 " type="text">
+                            </span>
+                        </span>  
+                       <span class="bt_block float_left no_bg" style="margin-left:8.7%">Totals&nbsp;</span>   
+                        <span class="float_right" style="width:33%">  
+                            <input class=" clear input_w2 right_txt" type="text" style="width: 17%;margin-left:-3%">
+                            <input class=" clear input_w2 right_txt" type="text" style="width: 22%;">
+                            <input class=" clear input_w2 right_txt" type="text" style="width:20.8%">
+                            <input class="clear input_w2 right_txt" type="text" style="width:17%">
+                            <input class="clear input_w2 right_txt" type="text" style="width:17%;">
+                        </span>  
+                            
+                   
+                    </span>
+                </div><!--END Tab1 -->
+            </div>
+
+            <div class="clear"><h1>Recipes</h1></div>
+            <div class="clear_percent float_left" style ="width:60%;">
+                <div class="tab_1 full_width">
+                    <span class="title_block bo_ra1">
+                        <span class="fl_dent"><h4>Recipes for this account</h4></span>
+                        <a title="Link a contact" href="">
+                            <span class="icon_down_tl top_f"></span>
+                        </a>
+                    </span>
+                    <p class="clear"></p>
+                    <ul class="ul_mag clear bg3">
+                        <li class="hg_padd" style="width:1%"></li>
+                        <li class="hg_padd" style="width:5%">Ref no</li>
+                        <li class="hg_padd center_txt" style="width:6%">Date</li>
+                        <li class="hg_padd" style="width:10%">Paid by</li>
+                        <li class="hg_padd" style="width:10%">Reference</li>
+                        <li class="hg_padd" style="width:22.8%">Notes</li>
+                        <li class="hg_padd" style="width:11%">Total receipt</li>
+                        <li class="hg_padd" style="width:11%">Allocated</li>
+                        <li class="hg_padd" style="width:11%">Unallocated</li>
+                        <li class="hg_padd bor_mt" style="width:1%"></li>
+                    </ul>
+                    <ul class="ul_mag clear bg1">
+                        <li class="hg_padd" style="width:1%"><span class="icon_emp"></span></li>
+                        <li class="hg_padd" style="width:5%">Ref no</li>
+                        <li class="hg_padd center_txt" style="width:6%">Date</li>
+                        <li class="hg_padd" style="width:10%">Paid by</li>
+                        <li class="hg_padd" style="width:10%">Reference</li>
+                        <li class="hg_padd" style="width:22.8%">Notes</li>
+                        <li class="hg_padd" style="width:11%">Total receipt</li>
+                        <li class="hg_padd" style="width:11%">Allocated</li>
+                        <li class="hg_padd" style="width:11%">Unallocated</li>
+                        <li class="hg_padd bor_mt" style="width:1%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="ul_mag clear bg2">
+                        <li class="hg_padd" style="width:1%"><span class="icon_emp"></span></li>
+                        <li class="hg_padd" style="width:5%">Ref no</li>
+                        <li class="hg_padd center_txt" style="width:6%">Date</li>
+                        <li class="hg_padd" style="width:10%">Paid by</li>
+                        <li class="hg_padd" style="width:10%">Reference</li>
+                        <li class="hg_padd" style="width:22.8%">Notes</li>
+                        <li class="hg_padd" style="width:11%">Total receipt</li>
+                        <li class="hg_padd" style="width:11%">Allocated</li>
+                        <li class="hg_padd" style="width:11%">Unallocated</li>
+                        <li class="hg_padd bor_mt" style="width:1%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="title_block bo_ra2">
+                        <span class="float_left bt_block">Click to view full details</span>
+                        <span class="bt_block float_right no_bg" style="margin-right:11px;">
+                            <span class="float_left">Totals&nbsp;</span>
+                            <input class="input_w2 float_right right_txt" type="text" style="width:95px">
+                            <input class="input_w2 float_right right_txt" type="text" style="width:95px">
+                            <input class="input_w2 float_right right_txt" type="text" style="width:95px">
+                            <div class="clear"></div>
+                        </span>
+                    </span>
+                   
+                </div><!--END Tab1 -->
+            </div>
+
+            <div class="float_left" style ="width:37%;">
+                <div class="tab_1 full_width">
+                    <span class="title_block bo_ra1">
+                        <span class="fl_dent"><h4>Recipes allocations</h4></span>                        
+                    </span>
+                    <p class="clear"></p>
+                    <ul class="ul_mag clear bg3">
+                        <li class="hg_padd" style="width:1.5%"></li>
+                        <li class="hg_padd" style="width:8%">Ref no</li>
+                        <li class="hg_padd center_txt" style="width:10%">Date</li>
+                        <li class="hg_padd" style="width:10%">Invoice</li>
+                        <li class="hg_padd" style="width:33.5%">Notes for customers</li>
+                        <li class="hg_padd" style="width:12.5%">Status</li>
+                        <li class="hg_padd" style="width:12.5%">Status</li>
+                        <li class="hg_padd bor_mt" style="width:2%"></li>
+                    </ul>
+                    <ul class="ul_mag clear bg1">
+                        <li class="hg_padd" style="width:1.5%"><span class="icon_emp"></span></li>
+                        <li class="hg_padd" style="width:8%">Ref no</li>
+                        <li class="hg_padd center_txt" style="width:10%">Date</li>
+                        <li class="hg_padd" style="width:10%">Invoice</li>
+                        <li class="hg_padd" style="width:33.5%">Notes for customers</li>
+                        <li class="hg_padd" style="width:12.5%">Status</li>
+                        <li class="hg_padd" style="width:12.5%">Status</li>
+                        <li class="hg_padd bor_mt" style="width:2%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="ul_mag clear bg2">
+                        <li class="hg_padd" style="width:1.5%"><span class="icon_emp"></span></li>
+                        <li class="hg_padd" style="width:8%">Ref no</li>
+                        <li class="hg_padd center_txt" style="width:10%">Date</li>
+                        <li class="hg_padd" style="width:10%">Invoice</li>
+                        <li class="hg_padd" style="width:33.5%">Notes for customers</li>
+                        <li class="hg_padd" style="width:12.5%">Status</li>
+                        <li class="hg_padd" style="width:12.5%">Status</li>
+                        <li class="hg_padd bor_mt" style="width:2%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="title_block bo_ra2">
+                        <span class="float_left bt_block">Click to view full details</span>.
+                        <span class="bt_block float_right no_bg" style="margin-right:11px;">
+                            <span class="" >Totals receipt allocations &nbsp;<input class="input_w2 float_right right_txt" type="text" style="width:65px">
+                            <div class="clear"></div>
+                            </span>
+                        </span>
+                    </span>
+                </div><!--END Tab1 -->
+            </div>
+
+            <div class="clear"><h1>Comms</h1></div>
+            <div class="clear_percent">
+                <div class="full_width block_dent9 ">
+                        <div class="tab_1 full_width">
+                            <span class="title_block bo_ra1">
+                                <span class="float_left h_form">
+                                    <span class="fl_dent"><h4>Communications / notes</h4></span>
+                                    <form class="float_left hbox_form">
+                                        <input type="text" class="top_m float_left">
+                                        <a href="" title="Create">
+                                            <span class="icosp_sea indent_sea"></span>
+                                        </a>
+                                    </form>
+                                </span>
+                                <span class="float_right">
+                                    <span class="block_sear bl_t">
+                                        <span class="bg_search_1"></span>
+                                        <span class="bg_search_2"></span>
+                                        <div class="box_inner_search float_left">
+                                            <a href=""><span class="icon_search"></span></a>
+                                            <div class="styled_select2 float_left">
+                                                <select class="css_select">
+                                                    <option label=""></option>
+                                                    <option>Email</option>
+                                                    <option>Letter</option>
+                                                    <option>Fax</option>
+                                                    <option disabled class="css_option" style="border-bottom:1px solid #fff; margin-bottom:10px;"></option>
+                                                    <option>Note</option>
+                                                    <option>Phone</option>
+                                                    <option>SMS</option>
+                                                    <option>Message</option>
+                                                </select>
+                                            </div>
+                                            <a href=""><span class="icon_closef"></span></a>
+                                        </div>
+                                    </span>
+                                </span>
+                            </span>
+                            <ul class="ul_mag clear bg3">
+                                <li class="hg_padd" style="width:0.5%;"></li>
+                                <li style="width:3%;" class="hg_padd center_txt">Type</li>
+                                <li style="width:3%;" class="hg_padd center_txt">Date</li>
+                                <li style="width:16%;" class="hg_padd">From</li>
+                                <li style="width:16%;" class="hg_padd">To</li>
+                                <li style="width:50.9%;border-right: 0px solid #FFFFFF;" class="hg_padd">Details</li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:0.5%;"><img src="../../../images/icon_message1.png" width="11"></li>
+                                <li style="width:3%;" class="hg_padd center_txt">Type</li>
+                                <li style="width:3%;" class="hg_padd center_txt">Date</li>
+                                <li style="width:16%;" class="hg_padd">From</li>
+                                <li style="width:16%;" class="hg_padd">To</li>
+                                <li style="width:50.9%;border-right: 0px solid #FFFFFF;" class="hg_padd">Details</li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:0.5%;"><img src="../../../images/icon_message1.png" width="11"></li>
+                                 <li style="width:3%;" class="hg_padd center_txt">Type</li>
+                                <li style="width:3%;" class="hg_padd center_txt">Date</li>
+                                <li style="width:16%;" class="hg_padd">From</li>
+                                <li style="width:16%;" class="hg_padd">To</li>
+                                <li style="width:50.9%;border-right: 0px solid #FFFFFF;" class="hg_padd">Details</li>
+                            </ul>
+                            <p class="clear"></p>
+                            <span class="hit3"></span>
+                            <span class="title_block bo_ra2">
+                                <span class="bt_block"><a href="">Click to view full details</a></span>
+                            </span>
+                        </div><!--END Tab1 -->
+                    </div>
+            </div>
+            
+
+            
+            <div class="clear"><h1>Task</h1></div>
+            <div class="clear_percent">
+                <div class="tab_1 full_width">
+                    <span class="title_block bo_ra1">
+                        <span class="fl_dent"><h4>Task relating to this account</h4></span>
+                        <a title="Link a contact" href="">
+                            <span class="icon_down_tl top_f"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fl_dent findout"><h4>Findout standing</h4></span>
+                        </a>
+                    </span>
+                    <p class="clear"></p>
+                    <ul class="ul_mag clear bg3">
+                        <li class="hg_padd" style="width:0.5%"></li>
+                        <li class="hg_padd" style="width:4%">Ref no</li>
+                        <li class="hg_padd" style="width:7%">Type</li>
+                        <li class="hg_padd " style="width:15%">Reponsible</li>
+                        <li class="hg_padd" style="width:5%">Start date</li>
+                        <li class="hg_padd" style="width:3%">Time</li>
+                        <li class="hg_padd" style="width:5%;">Finish</li>
+                        <li class="hg_padd" style="width:12%;">Their rep</li>
+                        <li class="hg_padd" style="width:32%;">Task</li>
+                        <li class="hg_padd bor_mt" style="width:2.5%">Status</li>
+                    </ul>
+                    <ul class="ul_mag clear bg1">
+                        <li class="hg_padd" style="width:0.5%"><span class="icon_emp"></span></li>
+                        <li class="hg_padd" style="width:4%">Ref no</li>
+                        <li class="hg_padd" style="width:7%">Type</li>
+                        <li class="hg_padd " style="width:15%">Reponsible</li>
+                        <li class="hg_padd" style="width:5%">Start date</li>
+                        <li class="hg_padd" style="width:3%">Time</li>
+                        <li class="hg_padd" style="width:5%;">Finish</li>
+                        <li class="hg_padd" style="width:12%;">Their rep</li>
+                        <li class="hg_padd" style="width:32%;">Task</li>
+                        <li class="hg_padd " style="width:4%">Status</li>
+                        <li class="hg_padd bor_mt" style="width:0.5%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="ul_mag clear bg2">
+                        <li class="hg_padd" style="width:0.5%"><span class="icon_emp"></span></li>
+                        <li class="hg_padd" style="width:4%">Ref no</li>
+                        <li class="hg_padd" style="width:7%">Type</li>
+                        <li class="hg_padd " style="width:15%">Reponsible</li>
+                        <li class="hg_padd" style="width:5%">Start date</li>
+                        <li class="hg_padd" style="width:3%">Time</li>
+                        <li class="hg_padd" style="width:5%;">Finish</li>
+                        <li class="hg_padd" style="width:12%;">Their rep</li>
+                        <li class="hg_padd" style="width:32%;">Task</li>
+                        <li class="hg_padd " style="width:4%">Status</li>
+                        <li class="hg_padd bor_mt" style="width:0.5%">
+                            <div class="middle_check">
+                                <a title="Delete link" href="">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="title_block bo_ra2">
+                        <span class="float_left bt_block">Click to view full details</span>
+                    </span>
+                </div><!--END Tab1 -->
+            </div>
+            <div class="clear"><h1>Other</h1></div>
+            <div class="clear_percent">
+                <div class="clear_percent_7a float_left">
+                    <div class="tab_1 full_width">
+                        <span class="title_block bo_ra1">
+                            <span class="float_left">
+                                <span class="fl_dent"><h4>Additional account details</h4></span>
+                            </span>
+                        </span>
+                        <div class="tab_2_inner">
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Company reg no</span>
+                            </p>
+                            <div class="width_in3a float_left indent_input_tp">
+                                <input class="input_1 float_left" type="text" value="">
+                            </div>
+                            <p></p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Tax no</span>
+                                </p><div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            <p></p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Year established</span>
+                                </p><div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            <p></p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Bank Name</span>
+                                </p><div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            <p></p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2" style="height:56px">Bank Address</span>
+                            </p>
+                            <div class="width_in3a float_left indent_input_tp">
+                                <textarea class="input_1 float_left  last_input2 text_area" type="text" value=""></textarea>
+                            </div>
+                            <p></p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Bank account no</span>
+                            </p><div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            <p></p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Bank sort code</span>
+                            </p><div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            <p></p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Bank IBANK no</span>
+                            </p><div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            <p></p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2"></span>
+                                </p><div class="width_in3a float_left indent_input_tp">
+                                </div>
+                            <p></p>
+                            
+                            <p></p>
+                            <p class="clear"></p>
+                        </div>
+                        
+                        <span class="title_block bo_ra2"></span>
+                    </div><!--END Tab1 -->
+                </div>
+                <div class="clear_percent_7b float_left">
+                    <div class="tab_1 full_width">
+                        <span class="title_block bo_ra1">
+                            <span class="float_left">
+                                <span class="fl_dent"><h4>Trade reference 1</h4></span>                                
+                                <span class="fl_dent" style="margin-left:185px"><h4>Trade reference 2</h4></span>                                
+                                <span class="fl_dent" style="margin-left:185px"><h4>Account application</h4></span> 
+                                <a href="#"><span class=" float_left app_print "><h6 class="center_txt">Print statement</h6></span></a>                               
+                            </span>
+                        </span>
+                        <div class="tab_3_commission float_left">
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Name</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Contact</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Phone</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Fax</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2" style="height:153px">Address</span>
+                            </p>
+                            <div class="width_in3a float_left indent_input_tp">
+                                <textarea class="input_1 float_left  last_input2 text_area" type="text" value=""></textarea>
+                            </div>
+                            
+                            <p class="clear"></p>
+                        </div>
+                        <div class="tab_3_commission float_left">
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Name</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Contact</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Phone</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Fax</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" type="text" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2" style="height:153px">Address</span>
+                            </p>
+                            <div class="width_in3a float_left indent_input_tp">
+                                <textarea class="input_1 float_left  last_input2 text_area" type="text" value=""></textarea>
+                            </div>
+                            
+                            <p class="clear"></p>
+                        </div>
+                        <div class="tab_3_commission float_left">
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Applicant name</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <div class="styled_select">
+                                        <select>
+                                            <option select="selected" type="text">Base on</option>
+                                            <option>Developper</option>
+                                            <option>Production</option>
+                                            <option>Manuafacture</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Position</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <div class="styled_select">
+                                        <select>
+                                            <option type="text">Director</option>
+                                            <option>Financial Controller</option>
+                                            <option>Managing Director</option>
+                                            <option>Receptionist</option>
+                                            <option>Sales Representative</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2" style="height:42px">Application date</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left " type="text" value="">
+                                    <input class="input_1 float_left " type="text" placeholder="Account approval">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Approved</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <div class="in_active2">
+                                        <label class="m_check2">
+                                            <input type="checkbox">
+                                            <span class="bx_check dent_chk"></span>
+                                        </label>
+                                        <span class="inactive dent_check"></span>
+                                        <p class="clear"></p>
+                                    </div>
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2">Approved by</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left"  readonly="readonly" value="">
+                                </div>
+                            </p>
+                            <p class="clear">
+                                <span class="label_1 float_left minw_lab2" style="height:111px;">Approved date</span>
+                                <div class="width_in3a float_left indent_input_tp">
+                                    <input class="input_1 float_left" readonly="readonly" value="">
+                                </div>
+                            </p>
+                            <p class="clear"></p>
+                        </div>
+                        <div class="clear"></div>   
+                        <span class="title_block bo_ra2"></span>
+                    </div><!--END Tab1 -->
+                </div>
+            </div>
+            <p class="clear"></p>
+        </div><!--END Content -->
+        <div id="footer">
+            <div class="bg_footer footer_res3">
+                <ul class="navleft_footer float_right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../../Calendar/calendar-comms.html" class="active">Calendar</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#"><span class="color_ac">Alerts : 1</span></a></li>
+                </ul>
+                <ul class="text_foot float_left">
+                    <li><span class="bold">Created:</span> 06/21/2013</li>
+                    <li>08:39</li>
+                    <li><span class="bold">By:</span> Joe Bloggs</li>
+                </ul>
+                <ul class="text_foot float_left">
+                    <li><span class="bold">Modified:</span> 06/21/2013</li>
+                    <li>08:39</li>
+                    <li><span class="bold">By:</span> Joe Bloggs</li>
+                </ul>
+            </div>
+        </div><!--END Footer -->
+    </div>
+</body>
+</html>

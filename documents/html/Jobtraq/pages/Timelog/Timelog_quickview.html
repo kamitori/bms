@@ -1,0 +1,749 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jobtraq QuickView</title>
+	<link href="../../css/reset.css" rel="stylesheet" type="text/css">
+	<link href="../../css/style.css" rel="stylesheet" type="text/css">
+
+    <link href="../../css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/jt_css.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="../../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('.container_same_category').mCustomScrollbar({
+                scrollButtons:{
+                    enable:false
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+	<div id="wrapper">
+    	<div id="header">
+            <div class="logo float_left"><a href="#"><img src="../../images/logo.png" title="Jobtraq"></a></div>
+            <ul class="nav_header float_right">
+                <li><a href="#" class="next">CMR/Work</a></li>
+                
+                <li><a href="#" class="stages">Stages</a></li>
+                <li><a href="#" class="tasks">Tasks</a></li>
+                <li class="active"><a href="#" class="timelog">TimeLog</a></li>
+                <li><a href="#" class="next">Sales</a></li>
+                <li><a href="#" class="enquiries">Enquiries</a></li>
+                <li><a href="#" class="quotes">Quotes</a></li>
+                <li><a href="#" class="sales_ord">Sales Ord</a></li>
+                <li><a href="#" class="sales_acc">Sales Acc</a></li>
+                <li><a href="#" class="sales_inv">Sales Inv</a></li>
+                <li><a href="#" class="receipts">Receipts</a></li>
+                <li><a href="#" class="next">Inventory</a></li>
+                <li><a href="#" class="purch_ord">Purch Ord</a></li>
+                <li><a href="#" class="shipping">Shipping</a></li>
+            </ul>
+    	</div>
+        <p class="clear_fix">clearfix</p>
+        <div class="menu">
+            <div class="bg_menu">
+                <span class="title_quick float_left">Quickview</span>
+                <ul class="nav_arrow">
+                    <li><a href="#" class="none"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" class="active"></a></li>
+                    <li><a href="#" class="none"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" class="none"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div><!--END Header -->
+        <div id="content">
+            <div class="clear_percent">
+                <div class="block_dent_a"></div>
+            </div>
+            <div class="clear_percent">
+                <div class="tab_1 full_width">
+                    <span class="title_block bo_ra1 block_expand">
+                        <span class="fl_dent"><h4>TimeLog</h4></span>
+                        <a href="" title="Link a contact">
+                            <span class="icon_down_tl top_f"></span>
+                        </a>
+                        <form>
+                            <div class="float_left hbox_form dent_left_form">
+                                <input class="btn_pur auto_width" type="button" value="Print expenses">
+                            </div>
+                        </form>
+                        <span class="float_right dent_bl_txt5">
+                            <span class="title_small2 float_left">Date</span>
+                            <div class="float_right">
+                                <span class="block_sear2 bl_t">
+                                    <span class="bg_search_1"></span>
+                                    <span class="bg_search_2"></span>
+                                    <div class="box_inner_search float_left">
+                                        <span class="icon_search"></span>
+                                        <input class="input_read width_ip" type="text" value="20.20.213">
+                                    </div>
+                                </span>
+                            </div>
+                        </span>
+                        <span class="float_right dent_bl_txt5">
+                            <span class="title_small2 float_left">Identity</span>
+                            <div class="float_right">
+                                <span class="block_sear bl_t">
+                                    <span class="bg_search_1"></span>
+                                    <span class="bg_search_2"></span>
+                                    <div class="box_inner_search float_left">
+                                        <a href=""><span class="icon_search"></span></a>
+                                        <div class="styled_select2 float_left">
+                                            <select>
+                                                <option select="selected"></option>
+                                                <option>Developper</option>
+                                                <option>Production</option>
+                                                <option>Manuafacture</option>
+                                            </select>
+                                        </div>
+                                        <a href=""><span class="icon_closef"></span></a>
+                                    </div>
+                                </span>
+                            </div>
+                        </span>
+                    </span>
+                    <p class="clear"></p>
+                    <ul class="ul_mag clear bg3">
+                        <li class="hg_padd" style="width:1%"></li>
+                        <li class="hg_padd" style="width:15%">Customer</li>
+                        <li class="hg_padd" style="width:20%">Job name</li>
+                        <li class="hg_padd" style="width:5%">Stage</li>
+                        <li class="hg_padd" style="width:6%">task</li>
+                        <li class="hg_padd center_txt" style="width:1%">D</li>
+                        <li class="hg_padd center_txt" style="width:3%">Cat</li>
+                        <li class="hg_padd center_txt" style="width:3%">Bill</li>
+                        <li class="hg_padd center_txt" style="width:4%">Start</li>
+                        <li class="hg_padd center_txt" style="width:4%">Finish</li>
+                        <li class="hg_padd center_txt" style="width:3%">Total</li>
+                        <li class="hg_padd" style="width:15%">Comments</li>
+                        <li class="hg_padd center_txt" style="width:3%">Warn</li>
+                        <li class="hg_padd right_txt no_border" style="width:1%"></li>
+                    </ul>
+                    <div class="links_decoration">
+                        <ul class="ul_mag clear bg1">
+                            <li class="hg_padd" style="width:1%"><span class="icon_emp"></span></li>
+                            <li class="hg_padd" style="width:15%"><a href="">Customer</a></li>
+                            <li class="hg_padd" style="width:20%"><a href="">Jobname</a></li>
+                            <li class="hg_padd" style="width:5%"><a href="">Stage</a></li>
+                            <li class="hg_padd" style="width:6%"><a href="">task</a></li>
+                            <li class="hg_padd center_txt" style="width:1%">
+                                <a title="Create email" href="">
+                                    <span class="icon_mail_opt no_top"></span>
+                                </a>
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%"><a href="">Cat</a></li>
+                            <li class="hg_padd center_txt" style="width:3%">
+                                <a href="">
+                                    <div class="middle_check">
+                                        <label class="m_check2">
+                                            <input type="checkbox">
+                                            <span class="bx_check"></span>
+                                        </label>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="hg_padd center_txt" style="width:4%">
+                                <span class="icon_emp float_left change_mar_left"></span>
+                                <input type="text" value="14:12" class="small_ip" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:4%">
+                                <span class="icon_emp float_left change_mar_left"></span>
+                                <input type="text" value="20:12" class="small_ip" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%">
+                                <input type="text" value="14:12" class="small_ip2" />
+                            </li>
+                            <li class="hg_padd" style="width:15%">
+                                <input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste eligendi animi ex accusantium beatae excepturi quaerat vitae delectus. Dolorem reiciendis libero expedita explicabo deserunt recusandae illum nesciunt consequatur iure tempore?" class="small_ip2" style="text-align:left" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%"><a href=""></a></li>
+                            <li class="hg_padd right_txt no_border" style="width:1%">
+                                <a href="" title="Delete link">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="ul_mag clear bg2">
+                            <li class="hg_padd" style="width:1%"><span class="icon_emp"></span></li>
+                            <li class="hg_padd" style="width:15%"><a href="">Customer</a></li>
+                            <li class="hg_padd" style="width:20%"><a href="">Jobname</a></li>
+                            <li class="hg_padd" style="width:5%"><a href="">Stage</a></li>
+                            <li class="hg_padd" style="width:6%"><a href="">task</a></li>
+                            <li class="hg_padd center_txt" style="width:1%">
+                                <a title="Create email" href="">
+                                    <span class="icon_mail_opt no_top"></span>
+                                </a>
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%"><a href="">Cat</a></li>
+                            <li class="hg_padd center_txt" style="width:3%">
+                                <a href="">
+                                    <div class="middle_check">
+                                        <label class="m_check2">
+                                            <input type="checkbox">
+                                            <span class="bx_check"></span>
+                                        </label>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="hg_padd center_txt" style="width:4%">
+                                <span class="icon_emp float_left change_mar_left"></span>
+                                <input type="text" value="14:12" class="small_ip" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:4%">
+                                <span class="icon_emp float_left change_mar_left"></span>
+                                <input type="text" value="20:12" class="small_ip" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%">
+                                <input type="text" value="14:12" class="small_ip2" />
+                            </li>
+                            <li class="hg_padd" style="width:15%">
+                                <input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste eligendi animi ex accusantium beatae excepturi quaerat vitae delectus. Dolorem reiciendis libero expedita explicabo deserunt recusandae illum nesciunt consequatur iure tempore?" class="small_ip2" style="text-align:left" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%"><a href=""></a></li>
+                            <li class="hg_padd right_txt no_border" style="width:1%">
+                                <a href="" title="Delete link">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="ul_mag clear bg1">
+                            <li class="hg_padd" style="width:1%"><span class="icon_emp"></span></li>
+                            <li class="hg_padd" style="width:15%"><a href="">Customer</a></li>
+                            <li class="hg_padd" style="width:20%"><a href="">Jobname</a></li>
+                            <li class="hg_padd" style="width:5%"><a href="">Stage</a></li>
+                            <li class="hg_padd" style="width:6%"><a href="">task</a></li>
+                            <li class="hg_padd center_txt" style="width:1%">
+                                <a title="Create email" href="">
+                                    <span class="icon_mail_opt no_top"></span>
+                                </a>
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%"><a href="">Cat</a></li>
+                            <li class="hg_padd center_txt" style="width:3%">
+                                <a href="">
+                                    <div class="middle_check">
+                                        <label class="m_check2">
+                                            <input type="checkbox">
+                                            <span class="bx_check"></span>
+                                        </label>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="hg_padd center_txt" style="width:4%">
+                                <span class="icon_emp float_left change_mar_left"></span>
+                                <input type="text" value="14:12" class="small_ip" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:4%">
+                                <span class="icon_emp float_left change_mar_left"></span>
+                                <input type="text" value="20:12" class="small_ip" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%">
+                                <input type="text" value="14:12" class="small_ip2" />
+                            </li>
+                            <li class="hg_padd" style="width:15%">
+                                <input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste eligendi animi ex accusantium beatae excepturi quaerat vitae delectus. Dolorem reiciendis libero expedita explicabo deserunt recusandae illum nesciunt consequatur iure tempore?" class="small_ip2" style="text-align:left" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%"><a href=""></a></li>
+                            <li class="hg_padd right_txt no_border" style="width:1%">
+                                <a href="" title="Delete link">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="ul_mag clear bg2">
+                            <li class="hg_padd" style="width:1%"><span class="icon_emp"></span></li>
+                            <li class="hg_padd" style="width:15%"><a href="">Customer</a></li>
+                            <li class="hg_padd" style="width:20%"><a href="">Jobname</a></li>
+                            <li class="hg_padd" style="width:5%"><a href="">Stage</a></li>
+                            <li class="hg_padd" style="width:6%"><a href="">task</a></li>
+                            <li class="hg_padd center_txt" style="width:1%">
+                                <a title="Create email" href="">
+                                    <span class="icon_mail_opt no_top"></span>
+                                </a>
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%"><a href="">Cat</a></li>
+                            <li class="hg_padd center_txt" style="width:3%">
+                                <a href="">
+                                    <div class="middle_check">
+                                        <label class="m_check2">
+                                            <input type="checkbox">
+                                            <span class="bx_check"></span>
+                                        </label>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="hg_padd center_txt" style="width:4%">
+                                <span class="icon_emp float_left change_mar_left"></span>
+                                <input type="text" value="14:12" class="small_ip" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:4%">
+                                <span class="icon_emp float_left change_mar_left"></span>
+                                <input type="text" value="20:12" class="small_ip" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%">
+                                <input type="text" value="14:12" class="small_ip2" />
+                            </li>
+                            <li class="hg_padd" style="width:15%">
+                                <input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste eligendi animi ex accusantium beatae excepturi quaerat vitae delectus. Dolorem reiciendis libero expedita explicabo deserunt recusandae illum nesciunt consequatur iure tempore?" class="small_ip2" style="text-align:left" />
+                            </li>
+                            <li class="hg_padd center_txt" style="width:3%"><a href=""></a></li>
+                            <li class="hg_padd right_txt no_border" style="width:1%">
+                                <a href="" title="Delete link">
+                                    <span class="icon_remove2"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <span class="title_block bo_ra2">
+                        <span class="float_left bt_block">Clicl arrow to view full details. Click job or task to view either.</span>
+                        <span class="float_right no_bg dent_bl_txt">
+                            <span class="float_right">
+                                Chargeable
+                                <input class="input_w" type="text" value="03:47">
+                            </span>
+                            <span class="dent_bl_txt float_left">
+                                Total time for day
+                                <input class="input_w" type="text" value="03:47">
+                            </span>
+                        </span>
+                    </span>
+                </div><!--END Tab1 -->
+            </div>
+            <div class="clear block_dent3 reset_all">
+                <div class="box_inner">
+                    <a href=""><span class="bt_block"></span></a>
+                </div>
+            </div>
+            <div class="clear_percent">
+                <div class="tab_1 full_width">
+                    <div class="percent_small">
+                        <span class="title_block bo_ra3">
+                            <span class="fl_dent"><h4>Current Jobs <span class="normal_txt">(click to create timelog)</span></h4></span>
+                            <span class="float_right dent_bl_txt6">
+                                <span class="title_small2 float_left">Filter below</span>
+                                <div class="float_right">
+                                    <span class="block_sear2 bl_t">
+                                        <span class="bg_search_1"></span>
+                                        <span class="bg_search_2"></span>
+                                        <div class="box_inner_search float_left">
+                                            <span class="icon_search"></span>
+                                            <input class="input_read width_ip" type="text" value="20.20.213">
+                                            <a href=""><span class="icon_closef fix_mar_left"></span></a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </span>
+                        </span>
+                        <p class="clear"></p>
+                        <ul class="ul_mag clear bg3">
+                            <li class="hg_padd" style="width:14%">Job no</li>
+                            <li class="hg_padd" style="width:27%">Job name</li>
+                            <li class="hg_padd" style="width:27%">Customer</li>
+                            <li class="hg_padd center_txt" style="width:10%">Start</li>
+                            <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                            <li class="hg_padd right_txt no_border" style="width:2%"></li>
+                        </ul>
+                        <div class="container_same_category links_decoration">
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:14%">Job no</li>
+                                <li class="hg_padd" style="width:27%">Job name</li>
+                                <li class="hg_padd" style="width:27%">Customer</li>
+                                <li class="hg_padd center_txt" style="width:10%">Start</li>
+                                <li class="hg_padd center_txt" style="width:10%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="percent_small resize_width_small">
+                        <span class="title_block">
+                            <span class="fl_dent"><h4>Stages</h4></span>
+                            <span class="float_right dent_bl_txt6">
+                                <span class="title_small2 float_left">Filter by job</span>
+                                <div class="float_right">
+                                    <span class="block_sear2 bl_t">
+                                        <span class="bg_search_1"></span>
+                                        <span class="bg_search_2"></span>
+                                        <div class="box_inner_search float_left">
+                                            <span class="icon_search"></span>
+                                            <input class="input_read width_ip" type="text" value="20.20.213">
+                                            <a href=""><span class="icon_closef fix_mar_left"></span></a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </span>
+                        </span>
+                        <p class="clear"></p>
+                        <ul class="ul_mag clear bg3">
+                            <li class="hg_padd" style="width:60%">Stage</li>
+                            <li class="hg_padd center_txt" style="width:15%">Start</li>
+                            <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                            <li class="hg_padd right_txt no_border" style="width:2%"></li>
+                        </ul>
+                        <div class="container_same_category links_decoration">
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:60%">Stage</li>
+                                <li class="hg_padd center_txt" style="width:15%">Start</li>
+                                <li class="hg_padd center_txt" style="width:15%">Finish</li>
+                                <li class="hg_padd right_txt border_left" style="width:2%">
+                                    <a href="" title="Delete link">
+                                        <span class="icon_emp"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="percent_small">
+                        <span class="title_block bo_ra4">
+                            <span class="fl_dent"><h4>Tasks <span class="normal_txt">(click to create timelog)</span></h4></span>
+                            <span class="float_right dent_bl_txt6">
+                                <span class="title_small2 float_left">Filter by stage</span>
+                                <div class="float_right">
+                                    <span class="block_sear2 bl_t">
+                                        <span class="bg_search_1"></span>
+                                        <span class="bg_search_2"></span>
+                                        <div class="box_inner_search float_left">
+                                            <span class="icon_search"></span>
+                                            <input class="input_read width_ip" type="text" value="">
+                                            <a href=""><span class="icon_closef fix_mar_left"></span></a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </span>
+                        </span>
+                        <p class="clear"></p>
+                        <ul class="ul_mag clear bg3">
+                            <li class="hg_padd" style="width:13%">Ref</li>
+                            <li class="hg_padd" style="width:13%">Type</li>
+                            <li class="hg_padd" style="width:33%">Task</li>
+                            <li class="hg_padd center_txt" style="width:11%">Start</li>
+                            <li class="hg_padd center_txt" style="width:11%">Finish</li>
+                            <li class="hg_padd center_txt no_border" style="width:11%">Time</li>
+                        </ul>
+                        <div class="container_same_category links_decoration">
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                            <ul class="ul_mag clear bg2">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                            <ul class="ul_mag clear bg1">
+                                <li class="hg_padd" style="width:13%">1</li>
+                                <li class="hg_padd" style="width:13%">Develop</li>
+                                <li class="hg_padd" style="width:33%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, vero, voluptate cum error illo mollitia animi eius obcaecati sit expedita? Ratione totam cupiditate voluptatem suscipit alias officiis dolor enim adipisci.</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt" style="width:11%">08.01,13</li>
+                                <li class="hg_padd center_txt no_border" style="width:11%">00:30</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="clear"></p>
+                    <span class="title_block bo_ra2">
+                        <div class="percent_small">
+                            <span class="float_right">
+                                <span class="right_text">Click arrow to filter stages and tasks</span>
+                                <span class="float_right bt_block"></span>
+                            </span>
+                        </div>
+                        <div class="percent_small resize_width_small">
+                            <span class="float_right">
+                                <span class="right_text">Click arrow to filter tasks</span>
+                                <span class="float_right bt_block"></span>
+                            </span>
+                        </div>
+                        <div class="percent_small">
+                            <span class="float_right">
+                                <span class="check_right_ft2">
+                                    <div class="middle_check">
+                                        <label class="m_check2">
+                                            <input type="checkbox">
+                                            <span class="bx_check"></span>
+                                        </label>
+                                    </div>
+                                </span>
+                            </span>
+                            <span class="error_text">Only display records occurring today</span>
+                        </div>
+                    </span>
+                </div><!--END Tab1 -->
+            </div>
+            <p class="clear"></p>
+        </div><!--END Content -->
+        <div id="footer">
+            <div class="bg_footer bg_footer_res">
+                <ul class="navleft_footer float_left">
+                    <li><a href="#">Exit</a></li>
+                    <li><a href="#">Re-login</a></li>
+                    <li><a href="#">Setup</a></li>
+                    <li><a href="#">Info / Help</a></li>
+                </ul>
+                <ul class="navleft_footer float_right">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="../Calendar/calendar-resource.html">Calendar</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Alerts</a></li>
+                </ul>
+            </div>
+            <ul class="nav_foot">
+                <li>100</li>
+                <li><a href="#" class="icon_1"></a></li>
+                <li><a href="#" class="icon_2"></a></li>
+                <li><a href="#" class="icon_3"></a></li>
+                <li>Browse</li>
+            </ul>
+        </div><!--END Footer -->
+    </div>
+</body>
+</html>
